@@ -22,4 +22,3 @@ def test_model_prediction():
 
     assert len(prediction) == 5
     assert all(p in [0, 1, 2] for p in prediction)
-```
